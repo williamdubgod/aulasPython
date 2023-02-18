@@ -14,3 +14,4 @@ if response.status_code == 200:
 
 if({dados['status']} != {'AVAILABLE'}):
     print("Domínio já utilizado!")
+    print("Expira em: " + dados['expires-at'])
